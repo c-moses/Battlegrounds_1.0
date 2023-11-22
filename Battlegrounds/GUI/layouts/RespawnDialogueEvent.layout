@@ -1,0 +1,2147 @@
+WindowWidgetClass WindowWidget {
+ ignorepointer 1
+ position 0 0
+ size 1 1
+ halign center_ref
+ valign center_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ priority 960
+ style Default
+ font "gui/fonts/sdf_MetronBook24"
+ {
+  PanelWidgetClass container {
+   visible 1
+   ignorepointer 1
+   color 0.0588 0.0588 0.0588 1
+   position 0 0
+   size 1 1
+   hexactpos 0
+   vexactpos 0
+   hexactsize 0
+   vexactsize 0
+   style DayZDefaultPanel
+   {
+    PanelWidgetClass Panel {
+     clipchildren 1
+     inheritalpha 0
+     ignorepointer 1
+     color 0.1176 0.1176 0.1176 0.9804
+     position 0 0
+     size 1500 750
+     halign center_ref
+     valign center_ref
+     hexactpos 0
+     vexactpos 0
+     hexactsize 1
+     vexactsize 1
+     style DayZDefaultPanel
+     {
+      WrapSpacerWidgetClass buttonWrap1 {
+       clipchildren 1
+       inheritalpha 0
+       ignorepointer 1
+       keepsafezone 0
+       position -0.35 -210
+       size 0.2 120
+       halign center_ref
+       valign center_ref
+       hexactpos 0
+       vexactpos 1
+       hexactsize 0
+       vexactsize 1
+       scaled 1
+       "no focus" 0
+       content_halign center
+       content_valign center
+       {
+        ButtonWidgetClass respawn_button_40 {
+         visible 1
+         ignorepointer 0
+         color 0 0 0 0
+         size 1 35
+         halign center_ref
+         valign center_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+         userID 40
+         style Default
+         {
+          PanelWidgetClass respawn_button_40_panel {
+           visible 1
+           ignorepointer 1
+           color 0 0 0 0
+           size 1 1
+           halign center_ref
+           valign center_ref
+           hexactpos 0
+           vexactpos 0
+           hexactsize 0
+           vexactsize 0
+           style DayZDefaultPanel
+          }
+          TextWidgetClass respawn_button_40_label {
+           ignorepointer 1
+           position 0 0
+           size 1 0.6
+           halign center_ref
+           valign center_ref
+           hexactpos 1
+           vexactpos 1
+           hexactsize 0
+           vexactsize 0
+           scaled 1
+           text "Staging Area"
+           font "gui/fonts/sdf_MetronLight72"
+           "exact text" 0
+           "size to text h" 0
+           "size to text v" 0
+           "text halign" center
+           "text valign" center
+          }
+         }
+        }
+        ButtonWidgetClass respawn_button_41 {
+         visible 1
+         ignorepointer 0
+         color 0 0 0 0
+         size 1 35
+         halign center_ref
+         valign center_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+         userID 41
+         style Default
+         {
+          PanelWidgetClass respawn_button_41_panel {
+           visible 1
+           ignorepointer 1
+           color 0 0 0 0
+           size 1 1
+           halign center_ref
+           valign center_ref
+           hexactpos 0
+           vexactpos 0
+           hexactsize 0
+           vexactsize 0
+           style DayZDefaultPanel
+          }
+          TextWidgetClass respawn_button_41_label {
+           ignorepointer 1
+           position 0 0
+           size 1 0.6
+           halign center_ref
+           valign center_ref
+           hexactpos 1
+           vexactpos 1
+           hexactsize 0
+           vexactsize 0
+           scaled 1
+           text "Main Base"
+           font "gui/fonts/sdf_MetronLight72"
+           "text halign" center
+           "text valign" center
+          }
+         }
+        }
+       }
+      }
+      WrapSpacerWidgetClass buttonWrap2 {
+       ignorepointer 1
+       position -0.12 -210
+       size 0.2 120
+       halign center_ref
+       valign center_ref
+       hexactpos 0
+       vexactpos 1
+       hexactsize 0
+       vexactsize 1
+       content_halign center
+       content_valign center
+       {
+        ButtonWidgetClass respawn_button_42 {
+         visible 1
+         ignorepointer 0
+         color 0 0 0 0
+         size 1 35
+         halign center_ref
+         valign center_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+         userID 42
+         style Default
+         {
+          PanelWidgetClass respawn_button_42_panel {
+           visible 1
+           ignorepointer 1
+           color 0 0 0 0
+           size 1 1
+           halign center_ref
+           valign center_ref
+           hexactpos 0
+           vexactpos 0
+           hexactsize 0
+           vexactsize 0
+           style DayZDefaultPanel
+          }
+          TextWidgetClass respawn_button_42_label {
+           ignorepointer 1
+           position 0 0
+           size 1 0.6
+           halign center_ref
+           valign center_ref
+           hexactpos 1
+           vexactpos 1
+           hexactsize 0
+           vexactsize 0
+           scaled 1
+           text "Staging Area"
+           font "gui/fonts/sdf_MetronLight72"
+           "exact text" 0
+           "size to text h" 0
+           "size to text v" 0
+           "text halign" center
+           "text valign" center
+          }
+         }
+        }
+        ButtonWidgetClass respawn_button_43 {
+         visible 1
+         ignorepointer 0
+         color 0 0 0 0
+         size 1 35
+         halign center_ref
+         valign center_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+         userID 43
+         style Default
+         {
+          PanelWidgetClass respawn_button_43_panel {
+           visible 1
+           ignorepointer 1
+           color 0 0 0 0
+           size 1 1
+           halign center_ref
+           valign center_ref
+           hexactpos 0
+           vexactpos 0
+           hexactsize 0
+           vexactsize 0
+           style DayZDefaultPanel
+          }
+          TextWidgetClass respawn_button_43_label {
+           ignorepointer 1
+           size 1 0.6
+           halign center_ref
+           valign center_ref
+           hexactpos 1
+           vexactpos 1
+           hexactsize 0
+           vexactsize 0
+           scaled 1
+           text "Main Base"
+           font "gui/fonts/sdf_MetronLight72"
+           "text halign" center
+           "text valign" center
+          }
+         }
+        }
+       }
+      }
+      WrapSpacerWidgetClass buttonWrap3 {
+       ignorepointer 1
+       position 0.12 -210
+       size 0.2 120
+       halign center_ref
+       valign center_ref
+       hexactpos 0
+       vexactpos 1
+       hexactsize 0
+       vexactsize 1
+       content_halign center
+       content_valign center
+       {
+        ButtonWidgetClass respawn_button_44 {
+         visible 1
+         ignorepointer 0
+         color 0 0 0 0
+         size 1 35
+         halign center_ref
+         valign center_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+         userID 44
+         style Default
+         {
+          PanelWidgetClass respawn_button_44_panel {
+           visible 1
+           ignorepointer 1
+           color 0 0 0 0
+           size 1 1
+           halign center_ref
+           valign center_ref
+           hexactpos 0
+           vexactpos 0
+           hexactsize 0
+           vexactsize 0
+           style DayZDefaultPanel
+          }
+          TextWidgetClass respawn_button_44_label {
+           ignorepointer 1
+           position 0 0
+           size 1 0.6
+           halign center_ref
+           valign center_ref
+           hexactpos 1
+           vexactpos 1
+           hexactsize 0
+           vexactsize 0
+           scaled 1
+           text "Staging Area"
+           font "gui/fonts/sdf_MetronLight72"
+           "exact text" 0
+           "size to text h" 0
+           "size to text v" 0
+           "text halign" center
+           "text valign" center
+          }
+         }
+        }
+        ButtonWidgetClass respawn_button_45 {
+         visible 1
+         ignorepointer 0
+         color 0 0 0 0
+         size 1 35
+         halign center_ref
+         valign center_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+         userID 45
+         style Default
+         {
+          PanelWidgetClass respawn_button_45_panel {
+           visible 1
+           ignorepointer 1
+           color 0 0 0 0
+           size 1 1
+           halign center_ref
+           valign center_ref
+           hexactpos 0
+           vexactpos 0
+           hexactsize 0
+           vexactsize 0
+           style DayZDefaultPanel
+          }
+          TextWidgetClass respawn_button_45_label {
+           ignorepointer 1
+           size 1 0.6
+           halign center_ref
+           valign center_ref
+           hexactpos 1
+           vexactpos 1
+           hexactsize 0
+           vexactsize 0
+           scaled 1
+           text "Main Base"
+           font "gui/fonts/sdf_MetronLight72"
+           "text halign" center
+           "text valign" center
+          }
+         }
+        }
+       }
+      }
+      WrapSpacerWidgetClass buttonWrap4 {
+       ignorepointer 1
+       position 0.35 -210
+       size 0.2 120
+       halign center_ref
+       valign center_ref
+       hexactpos 0
+       vexactpos 1
+       hexactsize 0
+       vexactsize 1
+       content_halign center
+       content_valign center
+       {
+        ButtonWidgetClass respawn_button_46 {
+         visible 1
+         ignorepointer 0
+         color 0 0 0 0
+         size 1 35
+         halign center_ref
+         valign center_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+         userID 46
+         style Default
+         {
+          PanelWidgetClass respawn_button_46_panel {
+           visible 1
+           ignorepointer 1
+           color 0 0 0 0
+           size 1 1
+           halign center_ref
+           valign center_ref
+           hexactpos 0
+           vexactpos 0
+           hexactsize 0
+           vexactsize 0
+           style DayZDefaultPanel
+          }
+          TextWidgetClass respawn_button_46_label {
+           ignorepointer 1
+           position 0 0
+           size 1 0.6
+           halign center_ref
+           valign center_ref
+           hexactpos 1
+           vexactpos 1
+           hexactsize 0
+           vexactsize 0
+           scaled 1
+           text "Staging Area"
+           font "gui/fonts/sdf_MetronLight72"
+           "exact text" 0
+           "size to text h" 0
+           "size to text v" 0
+           "text halign" center
+           "text valign" center
+          }
+         }
+        }
+        ButtonWidgetClass respawn_button_47 {
+         visible 1
+         ignorepointer 0
+         color 0 0 0 0
+         size 1 35
+         halign center_ref
+         valign center_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+         userID 47
+         style Default
+         {
+          PanelWidgetClass respawn_button_47_panel {
+           visible 1
+           ignorepointer 1
+           color 0 0 0 0
+           size 1 1
+           halign center_ref
+           valign center_ref
+           hexactpos 0
+           vexactpos 0
+           hexactsize 0
+           vexactsize 0
+           style DayZDefaultPanel
+          }
+          TextWidgetClass respawn_button_47_label {
+           ignorepointer 1
+           position 0 0
+           size 1 0.6
+           halign center_ref
+           valign center_ref
+           hexactpos 1
+           vexactpos 1
+           hexactsize 0
+           vexactsize 0
+           scaled 1
+           text "Main Base"
+           font "gui/fonts/sdf_MetronLight72"
+           "exact text" 0
+           "size to text h" 0
+           "size to text v" 0
+           "text halign" center
+           "text valign" center
+          }
+         }
+        }
+       }
+      }
+      FrameWidgetClass FrameWidget {
+       ignorepointer 1
+       position 0 30
+       size 150 45
+       halign center_ref
+       valign bottom_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       {
+        ButtonWidgetClass bCancel {
+         visible 1
+         color 0 0 0 0
+         size 1 35
+         halign center_ref
+         valign center_ref
+         hexactpos 0
+         vexactpos 0
+         hexactsize 0
+         vexactsize 1
+         userID 2
+         style Default
+         text_proportion 0.75
+         font "gui/fonts/sdf_MetronBook24"
+         {
+          PanelWidgetClass bCancel_panel {
+           visible 1
+           ignorepointer 1
+           color 0 0 0 0
+           position 0 0
+           size 1 1
+           hexactpos 0
+           vexactpos 0
+           hexactsize 0
+           vexactsize 0
+           style DayZDefaultPanel
+          }
+          TextWidgetClass bCancel_label {
+           ignorepointer 1
+           size 1 1
+           halign center_ref
+           valign center_ref
+           hexactpos 1
+           vexactpos 1
+           hexactsize 0
+           vexactsize 0
+           scaled 1
+           text "#menu_cancel"
+           font "gui/fonts/sdf_MetronLight72"
+           "exact text" 0
+           "size to text h" 0
+           "size to text v" 0
+           "text halign" center
+           "text valign" center
+          }
+         }
+        }
+       }
+      }
+      PanelWidgetClass TitlePanel {
+       ignorepointer 1
+       position 0 30
+       size 1500 60
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       {
+        TextWidgetClass Title1 {
+         ignorepointer 1
+         color 0.1137 0.902 0.0588 1
+         position -0.35 4
+         size 0.2 40
+         halign center_ref
+         hexactpos 0
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+         text "GREEN TEAM"
+         font "gui/fonts/etelkatextpro"
+         "text halign" center
+         "text valign" center
+        }
+        TextWidgetClass Title2 {
+         ignorepointer 1
+         color 0.2667 0.3608 0.9569 1
+         position -0.12 4
+         size 0.2 40
+         halign center_ref
+         hexactpos 0
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+         text "BLUE TEAM"
+         font "gui/fonts/etelkatextpro"
+         "text halign" center
+         "text valign" center
+        }
+        TextWidgetClass Title3 {
+         ignorepointer 1
+         color 1 0.2784 0.2784 1
+         position 0.12 4
+         size 0.2 40
+         halign center_ref
+         hexactpos 0
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+         text "RED TEAM"
+         font "gui/fonts/etelkatextpro"
+         "text halign" center
+         "text valign" center
+        }
+        TextWidgetClass Title4 {
+         ignorepointer 1
+         color 1 0.349 0 1
+         position 0.35 4
+         size 0.2 40
+         halign center_ref
+         hexactpos 0
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+         text "ORANGE TEAM"
+         font "gui/fonts/etelkatextpro"
+         "text halign" center
+         "text valign" center
+        }
+        TextWidgetClass GreenCount {
+         ignorepointer 1
+         position -0.35 20
+         size 0.08 20
+         halign center_ref
+         valign center_ref
+         hexactpos 0
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+         font "gui/fonts/etelkatextpro"
+         "text halign" center
+         "text valign" center
+        }
+        TextWidgetClass BlueCount {
+         ignorepointer 1
+         position -0.12 20
+         size 0.08 20
+         halign center_ref
+         valign center_ref
+         hexactpos 0
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+         font "gui/fonts/etelkatextpro"
+         "text halign" center
+         "text valign" center
+        }
+        TextWidgetClass RedCount {
+         ignorepointer 1
+         position 0.12 20
+         size 0.08 20
+         halign center_ref
+         valign center_ref
+         hexactpos 0
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+         font "gui/fonts/etelkatextpro"
+         "text halign" center
+         "text valign" center
+        }
+        TextWidgetClass OrangeCount {
+         ignorepointer 1
+         position 0.35 20
+         size 0.08 20
+         halign center_ref
+         valign center_ref
+         hexactpos 0
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+         font "gui/fonts/etelkatextpro"
+         "text halign" center
+         "text valign" center
+        }
+       }
+      }
+      PanelWidgetClass TitlePanel2 {
+       ignorepointer 1
+       position 0 -100
+       size 1500 60
+       halign center_ref
+       valign center_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       {
+        TextWidgetClass UnassignedTitle {
+         ignorepointer 1
+         position 0 4
+         size 0.2 40
+         halign center_ref
+         hexactpos 0
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+         text "UNASSIGNED"
+         font "gui/fonts/etelkatextpro"
+         "text halign" center
+         "text valign" center
+        }
+        PanelWidgetClass PanelWidget1 {
+         ignorepointer 1
+         position -400 -7
+         size 500 2
+         halign center_ref
+         valign center_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 1
+         vexactsize 1
+         style DayZDefaultPanel
+        }
+        PanelWidgetClass PanelWidget2 {
+         ignorepointer 1
+         position 400 -7
+         size 500 2
+         halign center_ref
+         valign center_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 1
+         vexactsize 1
+         style DayZDefaultPanel
+        }
+        TextWidgetClass UnassignedCount {
+         ignorepointer 1
+         position 0 20
+         size 0.08 20
+         halign center_ref
+         valign center_ref
+         hexactpos 0
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+         font "gui/fonts/etelkatextpro"
+         "text halign" center
+         "text valign" center
+        }
+       }
+      }
+      WrapSpacerWidgetClass buttonWrap5 {
+       clipchildren 1
+       inheritalpha 0
+       ignorepointer 1
+       keepsafezone 0
+       position -0.35 110
+       size 0.2 310
+       halign center_ref
+       valign center_ref
+       hexactpos 0
+       vexactpos 1
+       hexactsize 0
+       vexactsize 1
+       scaled 1
+       "no focus" 0
+       content_halign center
+       content_valign center
+       {
+        ButtonWidgetClass respawn_button_1 {
+         visible 1
+         ignorepointer 0
+         color 0 0 0 0
+         size 1 35
+         halign center_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+         style Default
+         {
+          PanelWidgetClass respawn_button_1_panel {
+           visible 1
+           ignorepointer 1
+           color 0 0 0 0
+           size 1 1
+           halign center_ref
+           valign center_ref
+           hexactpos 0
+           vexactpos 0
+           hexactsize 0
+           vexactsize 0
+           style DayZDefaultPanel
+          }
+          TextWidgetClass respawn_button_1_label {
+           ignorepointer 1
+           position 0 0
+           size 1 0.6
+           halign center_ref
+           valign center_ref
+           hexactpos 1
+           vexactpos 1
+           hexactsize 0
+           vexactsize 0
+           scaled 1
+           text "Black Cargo Jacket"
+           font "gui/fonts/sdf_MetronLight72"
+           "exact text" 0
+           "size to text h" 0
+           "size to text v" 0
+           "text halign" center
+           "text valign" center
+          }
+         }
+        }
+        ButtonWidgetClass respawn_button_2 {
+         visible 1
+         ignorepointer 0
+         color 0 0 0 0
+         size 1 35
+         halign center_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+         userID 1
+         style Default
+         {
+          PanelWidgetClass respawn_button_2_panel {
+           visible 1
+           ignorepointer 1
+           color 0 0 0 0
+           size 1 1
+           halign center_ref
+           valign center_ref
+           hexactpos 0
+           vexactpos 0
+           hexactsize 0
+           vexactsize 0
+           style DayZDefaultPanel
+          }
+          TextWidgetClass respawn_button_2_label {
+           ignorepointer 1
+           position 0 0
+           size 1 0.6
+           halign center_ref
+           valign center_ref
+           hexactpos 1
+           vexactpos 1
+           hexactsize 0
+           vexactsize 0
+           scaled 1
+           text "Green Cargo Jacket"
+           font "gui/fonts/sdf_MetronLight72"
+           "text halign" center
+           "text valign" center
+          }
+         }
+        }
+        ButtonWidgetClass respawn_button_3 {
+         visible 1
+         ignorepointer 0
+         color 0 0 0 0
+         size 1 35
+         halign center_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+         userID 32
+         style Default
+         {
+          PanelWidgetClass respawn_button_3_panel {
+           visible 1
+           ignorepointer 1
+           color 0 0 0 0
+           size 1 1
+           halign center_ref
+           valign center_ref
+           hexactpos 0
+           vexactpos 0
+           hexactsize 0
+           vexactsize 0
+           style DayZDefaultPanel
+          }
+          TextWidgetClass respawn_button_3_label {
+           ignorepointer 1
+           position 0 0
+           size 1 0.6
+           halign center_ref
+           valign center_ref
+           hexactpos 1
+           vexactpos 1
+           hexactsize 0
+           vexactsize 0
+           scaled 1
+           text "Black Winter Coat"
+           font "gui/fonts/sdf_MetronLight72"
+           "exact text" 0
+           "size to text h" 0
+           "size to text v" 0
+           "text halign" center
+           "text valign" center
+          }
+         }
+        }
+        ButtonWidgetClass respawn_button_4 {
+         visible 1
+         ignorepointer 0
+         color 0 0 0 0
+         size 1 35
+         halign center_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+         userID 3
+         style Default
+         {
+          PanelWidgetClass respawn_button_4_panel {
+           visible 1
+           ignorepointer 1
+           color 0 0 0 0
+           size 1 1
+           halign center_ref
+           valign center_ref
+           hexactpos 0
+           vexactpos 0
+           hexactsize 0
+           vexactsize 0
+           style DayZDefaultPanel
+          }
+          TextWidgetClass respawn_button_4_label {
+           ignorepointer 1
+           position 0 0
+           size 1 0.6
+           halign center_ref
+           valign center_ref
+           hexactpos 1
+           vexactpos 1
+           hexactsize 0
+           vexactsize 0
+           scaled 1
+           text "Green Winter Coat"
+           font "gui/fonts/sdf_MetronLight72"
+           "exact text" 0
+           "size to text h" 0
+           "size to text v" 0
+           "text halign" center
+           "text valign" center
+          }
+         }
+        }
+        ButtonWidgetClass respawn_button_14 {
+         visible 1
+         ignorepointer 0
+         color 0 0 0 0
+         size 1 35
+         halign center_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+         userID 13
+         style Default
+         {
+          PanelWidgetClass respawn_button_14_panel {
+           visible 1
+           ignorepointer 1
+           color 0 0 0 0
+           size 1 1
+           halign center_ref
+           valign center_ref
+           hexactpos 0
+           vexactpos 0
+           hexactsize 0
+           vexactsize 0
+           style DayZDefaultPanel
+          }
+          TextWidgetClass respawn_button_14_label {
+           ignorepointer 1
+           position 0 0
+           size 1 0.6
+           halign center_ref
+           valign center_ref
+           hexactpos 1
+           vexactpos 1
+           hexactsize 0
+           vexactsize 0
+           scaled 1
+           text "Camo Hunter"
+           font "gui/fonts/sdf_MetronLight72"
+           "exact text" 0
+           "size to text h" 0
+           "size to text v" 0
+           "text halign" center
+           "text valign" center
+          }
+         }
+        }
+        ButtonWidgetClass respawn_button_15 {
+         visible 1
+         ignorepointer 0
+         color 0 0 0 0
+         size 1 35
+         halign center_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+         userID 14
+         style Default
+         {
+          PanelWidgetClass respawn_button_15_panel {
+           visible 1
+           ignorepointer 1
+           color 0 0 0 0
+           size 1 1
+           halign center_ref
+           valign center_ref
+           hexactpos 0
+           vexactpos 0
+           hexactsize 0
+           vexactsize 0
+           style DayZDefaultPanel
+          }
+          TextWidgetClass respawn_button_15_label {
+           ignorepointer 1
+           position 0 0
+           size 1 0.6
+           halign center_ref
+           valign center_ref
+           hexactpos 1
+           vexactpos 1
+           hexactsize 0
+           vexactsize 0
+           scaled 1
+           text "Green Hunter"
+           font "gui/fonts/sdf_MetronLight72"
+           "exact text" 0
+           "size to text h" 0
+           "size to text v" 0
+           "text halign" center
+           "text valign" center
+          }
+         }
+        }
+        ButtonWidgetClass respawn_button_16 {
+         visible 1
+         ignorepointer 0
+         color 0 0 0 0
+         size 1 35
+         halign center_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+         userID 15
+         style Default
+         {
+          PanelWidgetClass respawn_button_16_panel {
+           visible 1
+           ignorepointer 1
+           color 0 0 0 0
+           size 1 1
+           halign center_ref
+           valign center_ref
+           hexactpos 0
+           vexactpos 0
+           hexactsize 0
+           vexactsize 0
+           style DayZDefaultPanel
+          }
+          TextWidgetClass respawn_button_16_label {
+           ignorepointer 1
+           position 0 0
+           size 1 0.6
+           halign center_ref
+           valign center_ref
+           hexactpos 1
+           vexactpos 1
+           hexactsize 0
+           vexactsize 0
+           scaled 1
+           text "Brown Hunter"
+           font "gui/fonts/sdf_MetronLight72"
+           "exact text" 0
+           "size to text h" 0
+           "size to text v" 0
+           "text halign" center
+           "text valign" center
+          }
+         }
+        }
+       }
+      }
+      WrapSpacerWidgetClass buttonWrap6 {
+       ignorepointer 1
+       position -0.12 110
+       size 0.2 310
+       halign center_ref
+       valign center_ref
+       hexactpos 0
+       vexactpos 1
+       hexactsize 0
+       vexactsize 1
+       content_halign center
+       content_valign center
+       {
+        ButtonWidgetClass respawn_button_11 {
+         visible 1
+         ignorepointer 0
+         color 0 0 0 0
+         size 1 35
+         halign center_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+         userID 10
+         style Default
+         {
+          PanelWidgetClass respawn_button_11_panel {
+           visible 1
+           ignorepointer 1
+           color 0 0 0 0
+           size 1 1
+           halign center_ref
+           valign center_ref
+           hexactpos 0
+           vexactpos 0
+           hexactsize 0
+           vexactsize 0
+           style DayZDefaultPanel
+          }
+          TextWidgetClass respawn_button_11_label {
+           ignorepointer 1
+           position 0 0
+           size 1 0.6
+           halign center_ref
+           valign center_ref
+           hexactpos 1
+           vexactpos 1
+           hexactsize 0
+           vexactsize 0
+           scaled 1
+           text "Paramedic Blue"
+           font "gui/fonts/sdf_MetronLight72"
+           "exact text" 0
+           "size to text h" 0
+           "size to text v" 0
+           "text halign" center
+           "text valign" center
+          }
+         }
+        }
+        ButtonWidgetClass respawn_button_12 {
+         visible 1
+         ignorepointer 0
+         color 0 0 0 0
+         size 1 35
+         halign center_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+         userID 11
+         style Default
+         {
+          PanelWidgetClass respawn_button_12_panel {
+           visible 1
+           ignorepointer 1
+           color 0 0 0 0
+           size 1 1
+           halign center_ref
+           valign center_ref
+           hexactpos 0
+           vexactpos 0
+           hexactsize 0
+           vexactsize 0
+           style DayZDefaultPanel
+          }
+          TextWidgetClass respawn_button_12_label {
+           ignorepointer 1
+           position 0 0
+           size 1 0.6
+           halign center_ref
+           valign center_ref
+           hexactpos 1
+           vexactpos 1
+           hexactsize 0
+           vexactsize 0
+           scaled 1
+           text "Police Uniform"
+           font "gui/fonts/sdf_MetronLight72"
+           "exact text" 0
+           "size to text h" 0
+           "size to text v" 0
+           "text halign" center
+           "text valign" center
+          }
+         }
+        }
+        ButtonWidgetClass respawn_button_13 {
+         visible 1
+         ignorepointer 0
+         color 0 0 0 0
+         size 1 35
+         halign center_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+         userID 12
+         style Default
+         {
+          PanelWidgetClass respawn_button_13_panel {
+           visible 1
+           ignorepointer 1
+           color 0 0 0 0
+           size 1 1
+           halign center_ref
+           valign center_ref
+           hexactpos 0
+           vexactpos 0
+           hexactsize 0
+           vexactsize 0
+           style DayZDefaultPanel
+          }
+          TextWidgetClass respawn_button_13_label {
+           ignorepointer 1
+           size 1 0.6
+           halign center_ref
+           valign center_ref
+           hexactpos 1
+           vexactpos 1
+           hexactsize 0
+           vexactsize 0
+           scaled 1
+           text "Orel Police Uniform"
+           font "gui/fonts/sdf_MetronLight72"
+           "text halign" center
+           "text valign" center
+          }
+         }
+        }
+        ButtonWidgetClass respawn_button_5 {
+         visible 1
+         ignorepointer 0
+         color 0 0 0 0
+         size 1 35
+         halign center_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+         userID 4
+         style Default
+         {
+          PanelWidgetClass respawn_button_5_panel {
+           visible 1
+           ignorepointer 1
+           color 0 0 0 0
+           size 1 1
+           halign center_ref
+           valign center_ref
+           hexactpos 0
+           vexactpos 0
+           hexactsize 0
+           vexactsize 0
+           style DayZDefaultPanel
+          }
+          TextWidgetClass respawn_button_5_label {
+           ignorepointer 1
+           position 0 0
+           size 1 0.6
+           halign center_ref
+           valign center_ref
+           hexactpos 1
+           vexactpos 1
+           hexactsize 0
+           vexactsize 0
+           scaled 1
+           text "White Sweater"
+           font "gui/fonts/sdf_MetronLight72"
+           "text halign" center
+           "text valign" center
+          }
+         }
+        }
+        ButtonWidgetClass respawn_button_6 {
+         visible 1
+         ignorepointer 0
+         color 0 0 0 0
+         size 1 35
+         halign center_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+         userID 5
+         style Default
+         {
+          PanelWidgetClass respawn_button_6_panel {
+           visible 1
+           ignorepointer 1
+           color 0 0 0 0
+           size 1 1
+           halign center_ref
+           valign center_ref
+           hexactpos 0
+           vexactpos 0
+           hexactsize 0
+           vexactsize 0
+           style DayZDefaultPanel
+          }
+          TextWidgetClass respawn_button_6_label {
+           ignorepointer 1
+           size 1 0.6
+           halign center_ref
+           valign center_ref
+           hexactpos 1
+           vexactpos 1
+           hexactsize 0
+           vexactsize 0
+           scaled 1
+           text "Green Sweater"
+           font "gui/fonts/sdf_MetronLight72"
+           "text halign" center
+           "text valign" center
+          }
+         }
+        }
+        ButtonWidgetClass respawn_button_7 {
+         visible 1
+         ignorepointer 0
+         color 0 0 0 0
+         size 1 35
+         halign center_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+         userID 6
+         style Default
+         {
+          PanelWidgetClass respawn_button_7_panel {
+           visible 1
+           ignorepointer 1
+           color 0 0 0 0
+           size 1 1
+           halign center_ref
+           valign center_ref
+           hexactpos 0
+           vexactpos 0
+           hexactsize 0
+           vexactsize 0
+           style DayZDefaultPanel
+          }
+          TextWidgetClass respawn_button_7_label {
+           ignorepointer 1
+           position 0 0
+           size 1 0.6
+           halign center_ref
+           valign center_ref
+           hexactpos 1
+           vexactpos 1
+           hexactsize 0
+           vexactsize 0
+           scaled 1
+           text "Blue Sweater"
+           font "gui/fonts/sdf_MetronLight72"
+           "exact text" 0
+           "size to text h" 0
+           "size to text v" 0
+           "text halign" center
+           "text valign" center
+          }
+         }
+        }
+        ButtonWidgetClass respawn_button_8 {
+         visible 1
+         ignorepointer 0
+         color 0 0 0 0
+         size 1 35
+         halign center_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+         userID 7
+         style Default
+         {
+          PanelWidgetClass respawn_button_8_panel {
+           visible 1
+           ignorepointer 1
+           color 0 0 0 0
+           size 1 1
+           halign center_ref
+           valign center_ref
+           hexactpos 0
+           vexactpos 0
+           hexactsize 0
+           vexactsize 0
+           style DayZDefaultPanel
+          }
+          TextWidgetClass respawn_button_8_label {
+           ignorepointer 1
+           position 0 0
+           size 1 0.6
+           halign center_ref
+           valign center_ref
+           hexactpos 1
+           vexactpos 1
+           hexactsize 0
+           vexactsize 0
+           scaled 1
+           text "Red Sweater"
+           font "gui/fonts/sdf_MetronLight72"
+           "exact text" 0
+           "size to text h" 0
+           "size to text v" 0
+           "text halign" center
+           "text valign" center
+          }
+         }
+        }
+       }
+      }
+      WrapSpacerWidgetClass buttonWrap7 {
+       ignorepointer 1
+       position 0.12 110
+       size 0.2 310
+       halign center_ref
+       valign center_ref
+       hexactpos 0
+       vexactpos 1
+       hexactsize 0
+       vexactsize 1
+       content_halign center
+       content_valign center
+       {
+        ButtonWidgetClass respawn_button_19 {
+         visible 1
+         ignorepointer 0
+         color 0 0 0 0
+         size 1 35
+         halign center_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+         userID 18
+         style Default
+         {
+          PanelWidgetClass respawn_button_19_panel {
+           visible 1
+           ignorepointer 1
+           color 0 0 0 0
+           size 1 1
+           halign center_ref
+           valign center_ref
+           hexactpos 0
+           vexactpos 0
+           hexactsize 0
+           vexactsize 0
+           style DayZDefaultPanel
+          }
+          TextWidgetClass respawn_button_19_label {
+           ignorepointer 1
+           position 0 0
+           size 1 0.6
+           halign center_ref
+           valign center_ref
+           hexactpos 1
+           vexactpos 1
+           hexactsize 0
+           vexactsize 0
+           scaled 1
+           text "Paramedic Red"
+           font "gui/fonts/sdf_MetronLight72"
+           "exact text" 0
+           "size to text h" 0
+           "size to text v" 0
+           "text halign" center
+           "text valign" center
+          }
+         }
+        }
+        ButtonWidgetClass respawn_button_20 {
+         visible 1
+         ignorepointer 0
+         color 0 0 0 0
+         size 1 35
+         halign center_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+         userID 19
+         style Default
+         {
+          PanelWidgetClass respawn_button_20_panel {
+           visible 1
+           ignorepointer 1
+           color 0 0 0 0
+           size 1 1
+           halign center_ref
+           valign center_ref
+           hexactpos 0
+           vexactpos 0
+           hexactsize 0
+           vexactsize 0
+           style DayZDefaultPanel
+          }
+          TextWidgetClass respawn_button_20_label {
+           ignorepointer 1
+           position 0 0
+           size 1 0.6
+           halign center_ref
+           valign center_ref
+           hexactpos 1
+           vexactpos 1
+           hexactsize 0
+           vexactsize 0
+           scaled 1
+           text "Beige Firefighter"
+           font "gui/fonts/sdf_MetronLight72"
+           "exact text" 0
+           "size to text h" 0
+           "size to text v" 0
+           "text halign" center
+           "text valign" center
+          }
+         }
+        }
+        ButtonWidgetClass respawn_button_21 {
+         visible 1
+         ignorepointer 0
+         color 0 0 0 0
+         size 1 35
+         halign center_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+         userID 20
+         style Default
+         {
+          PanelWidgetClass respawn_button_21_panel {
+           visible 1
+           ignorepointer 1
+           color 0 0 0 0
+           size 1 1
+           halign center_ref
+           valign center_ref
+           hexactpos 0
+           vexactpos 0
+           hexactsize 0
+           vexactsize 0
+           style DayZDefaultPanel
+          }
+          TextWidgetClass respawn_button_21_label {
+           ignorepointer 1
+           size 1 0.6
+           halign center_ref
+           valign center_ref
+           hexactpos 1
+           vexactpos 1
+           hexactsize 0
+           vexactsize 0
+           scaled 1
+           text "Black Firefighter"
+           font "gui/fonts/sdf_MetronLight72"
+           "text halign" center
+           "text valign" center
+          }
+         }
+        }
+        ButtonWidgetClass respawn_button_29 {
+         visible 1
+         ignorepointer 0
+         color 0 0 0 0
+         size 1 35
+         halign center_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+         userID 28
+         style Default
+         {
+          PanelWidgetClass respawn_button_29_panel {
+           visible 1
+           ignorepointer 1
+           color 0 0 0 0
+           size 1 1
+           halign center_ref
+           valign center_ref
+           hexactpos 0
+           vexactpos 0
+           hexactsize 0
+           vexactsize 0
+           style DayZDefaultPanel
+          }
+          TextWidgetClass respawn_button_29_label {
+           ignorepointer 1
+           position 0 0
+           size 1 0.6
+           halign center_ref
+           valign center_ref
+           hexactpos 1
+           vexactpos 1
+           hexactsize 0
+           vexactsize 0
+           scaled 1
+           text "Black Tracksuit"
+           font "gui/fonts/sdf_MetronLight72"
+           "exact text" 0
+           "size to text h" 0
+           "size to text v" 0
+           "text halign" center
+           "text valign" center
+          }
+         }
+        }
+        ButtonWidgetClass respawn_button_30 {
+         visible 1
+         ignorepointer 0
+         color 0 0 0 0
+         size 1 35
+         halign center_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+         userID 29
+         style Default
+         {
+          PanelWidgetClass respawn_button_30_panel {
+           visible 1
+           ignorepointer 1
+           color 0 0 0 0
+           size 1 1
+           halign center_ref
+           valign center_ref
+           hexactpos 0
+           vexactpos 0
+           hexactsize 0
+           vexactsize 0
+           style DayZDefaultPanel
+          }
+          TextWidgetClass respawn_button_30_label {
+           ignorepointer 1
+           position 0 0
+           size 1 0.6
+           halign center_ref
+           valign center_ref
+           hexactpos 1
+           vexactpos 1
+           hexactsize 0
+           vexactsize 0
+           scaled 1
+           text "Green Tracksuit"
+           font "gui/fonts/sdf_MetronLight72"
+           "exact text" 0
+           "size to text h" 0
+           "size to text v" 0
+           "text halign" center
+           "text valign" center
+          }
+         }
+        }
+        ButtonWidgetClass respawn_button_31 {
+         visible 1
+         ignorepointer 0
+         color 0 0 0 0
+         size 1 35
+         halign center_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+         userID 30
+         style Default
+         {
+          PanelWidgetClass respawn_button_31_panel {
+           visible 1
+           ignorepointer 1
+           color 0 0 0 0
+           size 1 1
+           halign center_ref
+           valign center_ref
+           hexactpos 0
+           vexactpos 0
+           hexactsize 0
+           vexactsize 0
+           style DayZDefaultPanel
+          }
+          TextWidgetClass respawn_button_31_label {
+           ignorepointer 1
+           position 0 0
+           size 1 0.6
+           halign center_ref
+           valign center_ref
+           hexactpos 1
+           vexactpos 1
+           hexactsize 0
+           vexactsize 0
+           scaled 1
+           text "Blue Tracksuit"
+           font "gui/fonts/sdf_MetronLight72"
+           "exact text" 0
+           "size to text h" 0
+           "size to text v" 0
+           "text halign" center
+           "text valign" center
+          }
+         }
+        }
+        ButtonWidgetClass respawn_button_32 {
+         visible 1
+         ignorepointer 0
+         color 0 0 0 0
+         size 1 35
+         halign center_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+         userID 31
+         style Default
+         {
+          PanelWidgetClass respawn_button_32_panel {
+           visible 1
+           ignorepointer 1
+           color 0 0 0 0
+           size 1 1
+           halign center_ref
+           valign center_ref
+           hexactpos 0
+           vexactpos 0
+           hexactsize 0
+           vexactsize 0
+           style DayZDefaultPanel
+          }
+          TextWidgetClass respawn_button_32_label {
+           ignorepointer 1
+           position 0 0
+           size 1 0.6
+           halign center_ref
+           valign center_ref
+           hexactpos 1
+           vexactpos 1
+           hexactsize 0
+           vexactsize 0
+           scaled 1
+           text "Red Tracksuit"
+           font "gui/fonts/sdf_MetronLight72"
+           "exact text" 0
+           "size to text h" 0
+           "size to text v" 0
+           "text halign" center
+           "text valign" center
+          }
+         }
+        }
+       }
+      }
+      WrapSpacerWidgetClass buttonWrap8 {
+       ignorepointer 1
+       position 0.35 110
+       size 0.2 310
+       halign center_ref
+       valign center_ref
+       hexactpos 0
+       vexactpos 1
+       hexactsize 0
+       vexactsize 1
+       content_halign center
+       content_valign center
+       {
+        ButtonWidgetClass respawn_button_25 {
+         visible 1
+         ignorepointer 0
+         color 0 0 0 0
+         size 1 35
+         halign center_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+         userID 24
+         style Default
+         {
+          PanelWidgetClass respawn_button_25_panel {
+           visible 1
+           ignorepointer 1
+           color 0 0 0 0
+           size 1 1
+           halign center_ref
+           valign center_ref
+           hexactpos 0
+           vexactpos 0
+           hexactsize 0
+           vexactsize 0
+           style DayZDefaultPanel
+          }
+          TextWidgetClass respawn_button_25_label {
+           ignorepointer 1
+           position 0 0
+           size 1 0.6
+           halign center_ref
+           valign center_ref
+           hexactpos 1
+           vexactpos 1
+           hexactsize 0
+           vexactsize 0
+           scaled 1
+           text "Black Flannel Coat"
+           font "gui/fonts/sdf_MetronLight72"
+           "exact text" 0
+           "size to text h" 0
+           "size to text v" 0
+           "text halign" center
+           "text valign" center
+          }
+         }
+        }
+        ButtonWidgetClass respawn_button_26 {
+         visible 1
+         ignorepointer 0
+         color 0 0 0 0
+         size 1 35
+         halign center_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+         userID 25
+         style Default
+         {
+          PanelWidgetClass respawn_button_26_panel {
+           visible 1
+           ignorepointer 1
+           color 0 0 0 0
+           size 1 1
+           halign center_ref
+           valign center_ref
+           hexactpos 0
+           vexactpos 0
+           hexactsize 0
+           vexactsize 0
+           style DayZDefaultPanel
+          }
+          TextWidgetClass respawn_button_26_label {
+           ignorepointer 1
+           position 0 0
+           size 1 0.6
+           halign center_ref
+           valign center_ref
+           hexactpos 1
+           vexactpos 1
+           hexactsize 0
+           vexactsize 0
+           scaled 1
+           text "Brown Flannel Coat"
+           font "gui/fonts/sdf_MetronLight72"
+           "exact text" 0
+           "size to text h" 0
+           "size to text v" 0
+           "text halign" center
+           "text valign" center
+          }
+         }
+        }
+        ButtonWidgetClass respawn_button_27 {
+         visible 1
+         ignorepointer 0
+         color 0 0 0 0
+         size 1 35
+         halign center_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+         userID 26
+         style Default
+         {
+          PanelWidgetClass respawn_button_27_panel {
+           visible 1
+           ignorepointer 1
+           color 0 0 0 0
+           size 1 1
+           halign center_ref
+           valign center_ref
+           hexactpos 0
+           vexactpos 0
+           hexactsize 0
+           vexactsize 0
+           style DayZDefaultPanel
+          }
+          TextWidgetClass respawn_button_27_label {
+           ignorepointer 1
+           size 1 0.6
+           halign center_ref
+           valign center_ref
+           hexactpos 1
+           vexactpos 1
+           hexactsize 0
+           vexactsize 0
+           scaled 1
+           text "Green Hiking Jacket"
+           font "gui/fonts/sdf_MetronLight72"
+           "text halign" center
+           "text valign" center
+          }
+         }
+        }
+        ButtonWidgetClass respawn_button_28 {
+         visible 1
+         ignorepointer 0
+         color 0 0 0 0
+         size 1 35
+         halign center_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+         userID 27
+         style Default
+         {
+          PanelWidgetClass respawn_button_28_panel {
+           visible 1
+           ignorepointer 1
+           color 0 0 0 0
+           size 1 1
+           halign center_ref
+           valign center_ref
+           hexactpos 0
+           vexactpos 0
+           hexactsize 0
+           vexactsize 0
+           style DayZDefaultPanel
+          }
+          TextWidgetClass respawn_button_28_label {
+           ignorepointer 1
+           position 0 0
+           size 1 0.6
+           halign center_ref
+           valign center_ref
+           hexactpos 1
+           vexactpos 1
+           hexactsize 0
+           vexactsize 0
+           scaled 1
+           text "Red Hiking Jacket"
+           font "gui/fonts/sdf_MetronLight72"
+           "exact text" 0
+           "size to text h" 0
+           "size to text v" 0
+           "text halign" center
+           "text valign" center
+          }
+         }
+        }
+        ButtonWidgetClass respawn_button_22 {
+         visible 1
+         ignorepointer 0
+         color 0 0 0 0
+         size 1 35
+         halign center_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+         userID 21
+         style Default
+         {
+          PanelWidgetClass respawn_button_22_panel {
+           visible 1
+           ignorepointer 1
+           color 0 0 0 0
+           size 1 1
+           halign center_ref
+           valign center_ref
+           hexactpos 0
+           vexactpos 0
+           hexactsize 0
+           vexactsize 0
+           style DayZDefaultPanel
+          }
+          TextWidgetClass respawn_button_22_label {
+           ignorepointer 1
+           position 0 0
+           size 1 0.6
+           halign center_ref
+           valign center_ref
+           hexactpos 1
+           vexactpos 1
+           hexactsize 0
+           vexactsize 0
+           scaled 1
+           text "Black Bomber Jacket"
+           font "gui/fonts/sdf_MetronLight72"
+           "exact text" 0
+           "size to text h" 0
+           "size to text v" 0
+           "text halign" center
+           "text valign" center
+          }
+         }
+        }
+        ButtonWidgetClass respawn_button_23 {
+         visible 1
+         ignorepointer 0
+         color 0 0 0 0
+         size 1 35
+         halign center_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+         userID 22
+         style Default
+         {
+          PanelWidgetClass respawn_button_23_panel {
+           visible 1
+           ignorepointer 1
+           color 0 0 0 0
+           size 1 1
+           halign center_ref
+           valign center_ref
+           hexactpos 0
+           vexactpos 0
+           hexactsize 0
+           vexactsize 0
+           style DayZDefaultPanel
+          }
+          TextWidgetClass respawn_button_23_label {
+           ignorepointer 1
+           position 0 0
+           size 1 0.6
+           halign center_ref
+           valign center_ref
+           hexactpos 1
+           vexactpos 1
+           hexactsize 0
+           vexactsize 0
+           scaled 1
+           text "Green Bomber Jacket"
+           font "gui/fonts/sdf_MetronLight72"
+           "exact text" 0
+           "size to text h" 0
+           "size to text v" 0
+           "text halign" center
+           "text valign" center
+          }
+         }
+        }
+        ButtonWidgetClass respawn_button_24 {
+         visible 1
+         ignorepointer 0
+         color 0 0 0 0
+         size 1 35
+         halign center_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+         userID 23
+         style Default
+         {
+          PanelWidgetClass respawn_button_24_panel {
+           visible 1
+           ignorepointer 1
+           color 0 0 0 0
+           size 1 1
+           halign center_ref
+           valign center_ref
+           hexactpos 0
+           vexactpos 0
+           hexactsize 0
+           vexactsize 0
+           style DayZDefaultPanel
+          }
+          TextWidgetClass respawn_button_24_label {
+           ignorepointer 1
+           position 0 0
+           size 1 0.6
+           halign center_ref
+           valign center_ref
+           hexactpos 1
+           vexactpos 1
+           hexactsize 0
+           vexactsize 0
+           scaled 1
+           text "Brown Bomber Jacket"
+           font "gui/fonts/sdf_MetronLight72"
+           "exact text" 0
+           "size to text h" 0
+           "size to text v" 0
+           "text halign" center
+           "text valign" center
+          }
+         }
+        }
+       }
+      }
+      PanelWidgetClass RemoveGreen {
+       visible 0
+       ignorepointer 0
+       color 0.1176 0.1176 0.1176 1
+       position -0.35 25
+       size 320 205
+       halign center_ref
+       hexactpos 0
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       style DayZDefaultPanel
+      }
+      PanelWidgetClass RemoveBlue {
+       visible 0
+       ignorepointer 0
+       color 0.1176 0.1176 0.1176 1
+       position -0.12 25
+       size 320 205
+       halign center_ref
+       hexactpos 0
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       style DayZDefaultPanel
+      }
+      PanelWidgetClass RemoveRed {
+       visible 0
+       ignorepointer 0
+       color 0.1176 0.1176 0.1176 1
+       position 0.12 25
+       size 320 205
+       halign center_ref
+       hexactpos 0
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       style DayZDefaultPanel
+      }
+      PanelWidgetClass RemoveOrange {
+       visible 0
+       ignorepointer 0
+       color 0.1176 0.1176 0.1176 1
+       position 0.35 25
+       size 320 205
+       halign center_ref
+       hexactpos 0
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       style DayZDefaultPanel
+      }
+     }
+    }
+   }
+  }
+ }
+}

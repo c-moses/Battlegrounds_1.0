@@ -1,0 +1,73 @@
+FrameWidgetClass rootFrame {
+ clipchildren 0
+ ignorepointer 1
+ position 0 0
+ size 0.9 0.9
+ halign center_ref
+ valign center_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ {
+  PanelWidgetClass FactionPanel {
+   clipchildren 1
+   ignorepointer 1
+   color 0 0 0 0.2745
+   position 0 200
+   size 90 100
+   halign right_ref
+   valign bottom_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   scaled 1
+   style DayZDefaultPanel
+   {
+    PanelWidgetClass TitlePanel {
+     ignorepointer 1
+     color 0 0 0 0.3922
+     position 0 0
+     size 90 20
+     halign center_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     style DayZDefaultPanel
+     {
+      TextWidgetClass ScoreTitle {
+       ignorepointer 1
+       size 90 15
+       halign center_ref
+       valign center_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       text "SCORE"
+       font "gui/fonts/etelkatextpro"
+       "text halign" center
+       "text valign" center
+      }
+     }
+    }
+    GridSpacerWidgetClass GridSpacerWidget {
+     ignorepointer 1
+     position 0 20
+     size 90 80
+     halign center_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     Padding 0
+     Margin 0
+     Columns 1
+     Rows 4
+    }
+   }
+  }
+ }
+}

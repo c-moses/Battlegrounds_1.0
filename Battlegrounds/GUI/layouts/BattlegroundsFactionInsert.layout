@@ -1,0 +1,93 @@
+FrameWidgetClass rootFrame {
+ clipchildren 0
+ ignorepointer 1
+ position 0 0
+ size 90 20
+ halign center_ref
+ valign center_ref
+ hexactpos 1
+ vexactpos 1
+ hexactsize 1
+ vexactsize 1
+ {
+  PanelWidgetClass Team {
+   visible 1
+   ignorepointer 1
+   position 0 0
+   size 1 1
+   hexactpos 0
+   vexactpos 0
+   hexactsize 0
+   vexactsize 0
+   {
+    ImageWidgetClass TeamFlag {
+     visible 0
+     clipchildren 1
+     position 5 0
+     size 16 16
+     valign center_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     scaled 1
+     image0 "set:dayz_gui image:icon_flag"
+     mode blend
+     "src alpha" 1
+     "no wrap" 1
+     stretch 0
+     filter 1
+     nocache 0
+    }
+    ImageWidgetClass TeamArmband {
+     visible 1
+     clipchildren 1
+     position 25 0
+     size 24 24
+     valign center_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     scaled 1
+     image0 "set:dayz_inventory image:armband"
+     mode blend
+     "src alpha" 1
+     "no wrap" 1
+     stretch 0
+     filter 1
+     nocache 0
+    }
+    PanelWidgetClass TeamPanel {
+     visible 1
+     ignorepointer 1
+     color 0 0 0 0.1569
+     position 5 0
+     size 30 15
+     halign right_ref
+     valign center_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     style DayZDefaultPanel
+     {
+      TextWidgetClass TeamScore {
+       ignorepointer 1
+       size 1 0.9
+       halign center_ref
+       valign center_ref
+       hexactpos 0
+       vexactpos 0
+       hexactsize 0
+       vexactsize 0
+       font "gui/fonts/etelkatextpro"
+       "text halign" center
+       "text valign" center
+      }
+     }
+    }
+   }
+  }
+ }
+}

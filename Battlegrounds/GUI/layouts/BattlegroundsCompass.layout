@@ -1,0 +1,103 @@
+FrameWidgetClass rootFrame {
+ visible 1
+ ignorepointer 1
+ position 0 0
+ size 1 1
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ scaled 1
+ {
+  TextWidgetClass TextHeading {
+   visible 0
+   ignorepointer 1
+   size 1 41
+   halign center_ref
+   hexactpos 0
+   vexactpos 0
+   hexactsize 0
+   vexactsize 1
+   text "Heading"
+   font "gui/fonts/metron-bold"
+   "size to text h" 1
+   "size to text v" 1
+   "text halign" center
+  }
+  FrameWidgetClass FrameCompass {
+   visible 1
+   ignorepointer 1
+   position 0 0
+   size 648 41
+   halign center_ref
+   hexactpos 0
+   vexactpos 0
+   hexactsize 1
+   vexactsize 1
+   {
+    ImageWidgetClass ImageCompass {
+     visible 1
+     clipchildren 0
+     inheritalpha 0
+     ignorepointer 1
+     position -1 0
+     size 3 1
+     hexactpos 0
+     vexactpos 0
+     hexactsize 0
+     vexactsize 0
+     scaled 1
+     imageTexture "{B8F3C98074320132}Battlegrounds/GUI/BattlegroundsCompass.edds"
+     mode blend
+     "src alpha" 1
+     "no wrap" 1
+     stretch 1
+     "flip u" 0
+     "flip v" 0
+    }
+    GridSpacerWidgetClass GridSpacerWidget0 {
+     ignorepointer 1
+     color 0.8353 0 0 1
+     size 4 0.3
+     halign center_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 0
+    }
+    ImageWidgetClass ObjectiveIcon {
+     clipchildren 0
+     ignorepointer 1
+     position -1 0
+     size 3 1
+     hexactpos 0
+     vexactpos 0
+     hexactsize 0
+     vexactsize 0
+     imageTexture "{A00D6D80D501A1B6}Battlegrounds/GUI/CompassIcon.edds"
+     mode additive
+     "src alpha" 1
+     "no wrap" 1
+     stretch 1
+     filter 1
+    }
+    ImageWidgetClass MainBaseIcon {
+     clipchildren 0
+     ignorepointer 1
+     position -1 0
+     size 3 1
+     hexactpos 0
+     vexactpos 0
+     hexactsize 0
+     vexactsize 0
+     imageTexture "{3A31ACB88C15E307}Battlegrounds/GUI/MainBaseIcon.edds"
+     mode additive
+     "src alpha" 1
+     "no wrap" 1
+     stretch 1
+     Progress 0
+    }
+   }
+  }
+ }
+}

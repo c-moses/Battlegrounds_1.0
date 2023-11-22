@@ -1,0 +1,114 @@
+FrameWidgetClass rootFrame {
+ size 1 40
+ halign center_ref
+ valign center_ref
+ hexactpos 1
+ vexactpos 1
+ hexactsize 0
+ vexactsize 1
+ {
+  PanelWidgetClass Outline {
+   ignorepointer 1
+   color 0.4353 0.4353 0.4353 0.7843
+   size 1 2
+   halign center_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   style Outline
+  }
+  PanelWidgetClass Outline2 {
+   ignorepointer 1
+   color 0.349 0.349 0.349 0.7843
+   size 1 40
+   halign center_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   style Outline
+  }
+  TextWidgetClass RankData {
+   ignorepointer 1
+   position 0 0
+   size 0.06 38
+   valign bottom_ref
+   hexactpos 0
+   vexactpos 0
+   hexactsize 0
+   vexactsize 1
+   font "gui/fonts/etelkatextpro"
+   "text halign" center
+   "text valign" center
+  }
+  TextWidgetClass NameData {
+   ignorepointer 1
+   position 0.06 0
+   size 0.34 38
+   valign bottom_ref
+   hexactpos 0
+   vexactpos 0
+   hexactsize 0
+   vexactsize 1
+   style Bold
+   font "gui/fonts/etelkatextpro"
+   "text color" 0.7412 0.7412 0.7412 1
+   "text halign" center
+   "text valign" center
+  }
+  TextWidgetClass pKillsData {
+   ignorepointer 1
+   position 0.4 0
+   size 0.12 38
+   valign bottom_ref
+   hexactpos 0
+   vexactpos 0
+   hexactsize 0
+   vexactsize 1
+   font "gui/fonts/etelkatextpro"
+   "text halign" center
+   "text valign" center
+  }
+  TextWidgetClass zKillsData {
+   ignorepointer 1
+   position 0.52 0
+   size 0.12 38
+   valign bottom_ref
+   hexactpos 0
+   vexactpos 0
+   hexactsize 0
+   vexactsize 1
+   font "gui/fonts/etelkatextpro"
+   "text halign" center
+   "text valign" center
+  }
+  TextWidgetClass DeathsData {
+   ignorepointer 1
+   position 0.64 0
+   size 0.12 38
+   valign bottom_ref
+   hexactpos 0
+   vexactpos 0
+   hexactsize 0
+   vexactsize 1
+   font "gui/fonts/etelkatextpro"
+   "text halign" center
+   "text valign" center
+  }
+  TextWidgetClass ScoreData {
+   ignorepointer 1
+   position 0 0
+   size 0.24 38
+   halign right_ref
+   valign center_ref
+   hexactpos 0
+   vexactpos 0
+   hexactsize 0
+   vexactsize 1
+   font "gui/fonts/etelkatextpro"
+   "text halign" center
+   "text valign" center
+  }
+ }
+}

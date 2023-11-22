@@ -1,0 +1,201 @@
+FrameWidgetClass rootFrame {
+ clipchildren 0
+ ignorepointer 1
+ position 0 0
+ size 0.9 0.9
+ halign center_ref
+ valign center_ref
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ {
+  FrameWidgetClass MainFrame {
+   ignorepointer 1
+   position 0 0
+   size 1000 600
+   halign center_ref
+   valign center_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   {
+    PanelWidgetClass MainPanel {
+     ignorepointer 1
+     color 0 0 0 0.4902
+     size 990 590
+     halign center_ref
+     valign center_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     style rover_sim_colorable
+     {
+      PanelWidgetClass HeaderPanel {
+       ignorepointer 1
+       color 0 0 0 0.3922
+       position 0 5
+       size 980 50
+       halign center_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       style rover_sim_colorable
+       {
+        TextWidgetClass HeaderText {
+         ignorepointer 1
+         size 960 40
+         halign center_ref
+         valign center_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 1
+         vexactsize 1
+         text "LEADERBOARD"
+         font "gui/fonts/etelkatextpro"
+         "text halign" center
+         "text valign" center
+        }
+       }
+      }
+      PanelWidgetClass InfoPanel {
+       ignorepointer 1
+       color 0 0 0 0.3922
+       position 0 55
+       size 980 40
+       halign center_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       style rover_sim_colorable
+       {
+        TextWidgetClass Rank {
+         ignorepointer 1
+         position 6 0
+         size 50 20
+         valign center_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 1
+         vexactsize 1
+         text "Rank"
+         "text halign" center
+         "text valign" center
+        }
+        TextWidgetClass Name {
+         ignorepointer 1
+         position 70 0
+         size 300 20
+         valign center_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 1
+         vexactsize 1
+         text "Name"
+         "text halign" center
+         "text valign" center
+        }
+        TextWidgetClass PlayerKills {
+         ignorepointer 1
+         position 382 0
+         size 135 20
+         valign center_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 1
+         vexactsize 1
+         text "Player Kills"
+         "text halign" center
+         "text valign" center
+        }
+        TextWidgetClass InfectedKills {
+         ignorepointer 1
+         position 498 0
+         size 145 20
+         valign center_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 1
+         vexactsize 1
+         text "Infected Kills"
+         "text halign" center
+         "text valign" center
+        }
+        TextWidgetClass Deaths {
+         ignorepointer 1
+         position 635 0
+         size 95 20
+         valign center_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 1
+         vexactsize 1
+         text "Deaths"
+         "text halign" center
+         "text valign" center
+        }
+        TextWidgetClass Score {
+         ignorepointer 1
+         position 770 0
+         size 170 20
+         valign center_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 1
+         vexactsize 1
+         text "Score"
+         "text halign" center
+         "text valign" center
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+  PanelWidgetClass ListPanel {
+   ignorepointer 1
+   position 0 48
+   size 980 490
+   halign center_ref
+   valign center_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   {
+    ScrollWidgetClass PlayerList {
+     ignorepointer 0
+     position 0 0
+     size 980 490
+     halign center_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     "Scrollbar V" 1
+     {
+      GridSpacerWidgetClass PlayerListGrid {
+       ignorepointer 1
+       size 980 490
+       halign center_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       "Size To Content H" 1
+       "Size To Content V" 1
+       content_halign center
+       content_valign center
+       Columns 1
+      }
+     }
+    }
+   }
+  }
+ }
+}
